@@ -13,7 +13,6 @@ jobs:
   Build:
     runs-on: ubuntu-latest
     steps:
-      - name: Output
       - run: |
           echo "Job triggered by event: ${{ github.event_name }}"
           echo "Branch name is ${{ github.ref }} and your repository is ."
